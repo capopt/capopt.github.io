@@ -49,4 +49,6 @@ blockquote {
   border-left: 5px solid #bbbbbb;
   padding-left: 10px;
   background-color: #eeeeee;
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
 }
