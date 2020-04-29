@@ -10,6 +10,11 @@ body {
   padding-right: 20px; 
 }
 
+strong {
+  font-weight: 500;
+  color: #222222;
+}
+
 h1 {
   margin-bottom: -10px;
 }
@@ -22,8 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 
 hr {
   border: 0;
-  color: #dddddd;
-  background-color: #dddddd;
+  background-color: #BBBBBB;
   height: 1px;
 }
 
@@ -48,9 +52,11 @@ a:hover {
 blockquote {
   border-left: 5px solid #bbbbbb;
   padding-left: 10px;
+  padding-right: 10px;
   background-color: #eeeeee;
-  margin-inline-start: 10px;
-  margin-inline-end: 10px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  max-width: 725px;
 }
 
 pre {

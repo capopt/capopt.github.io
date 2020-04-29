@@ -1,5 +1,5 @@
-#bibtex {
-  margin-bottom: 0;
+.titulo {
+  color:blue;
 }
 
 body {
@@ -11,17 +11,17 @@ body {
 }
 
 strong {
-  font-weight: 500;
-  color: #222222;
+  font-weight: 600;
 }
 
 h1 {
-  margin-bottom: -10px;
+  margin-bottom: 20px;
+  margin-top: -20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 100;
-  color: #BA3925;
+  color: #196F3D;
   letter-spacing: -1.2px;
 }
 
@@ -52,11 +52,10 @@ a:hover {
 blockquote {
   border-left: 5px solid #bbbbbb;
   padding-left: 10px;
-  padding-right: 10px;
   background-color: #eeeeee;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  max-width: 725px;
+  max-width: 728px;
 }
 
 pre {
