@@ -24,9 +24,59 @@ Automatic configuration techniques are widely and successfully used to find good
 
 ## Configuration Scenarios
 
-TBD.
+We tested the capping methods in the following scenarios:
 
++ ACOTSP: ant colony optimization algorithms for the symmetric traveling salesperson problem [1].
++ HEACOL: hybrid evolutionary algorithm for the graph coloring problem [2].
++ TSBPP: tabu search for the bin packing problem [3, 4].
++ HHBQP: hybrid heuristic for unconstrained binary quadratic programming [5].
+
+Below you find all files to replicate our experiments:
+
+| Scenario | Source code <sup>1, 2</sup>  | Parameters                               | Train instances                                   | Test instances                                  | Best known values                             | Cut-off effort          | Budget (execs) | Budget (time) |
+|----------|-----------------|-------------------------------------------------------|---------------------------------------------------|-------------------------------------------------|-----------------------------------------------|-------------------------|----------------|---------------|
+| ACOTSP   | acotsp.zip      | [parameters-acotsp.txt][par-acotsp]{:target="_blank"} | [train-acotsp.zip][train-acotsp]{:target="_blank"} | [test-acotsp.zip][test-acotsp]{:target="_blank"} | [bkv-acotsp.txt][bkv-acotsp]{:target="_blank"} | 60 sec.                 | 2000           | 21000 sec.    |
+| HEACOL   | heacol.zip      | [parameters-heacol.txt][par-heacol]{:target="_blank"} | [train-heacol.zip][train-heacol]{:target="_blank"} | [test-heacol.zip][test-heacol]{:target="_blank"} | [bkv-heacol.txt][bkv-heacol]{:target="_blank"} | 10<sup>9</sup> checks   | 2000           | 3200 sec.     |
+| TSBPP    | tsbpp.zip       | [parameters-tsbpp.txt][par-tsbpp]{:target="_blank"}   | [train-tsbpp.zip][train-tsbpp]{:target="_blank"}   | [test-tsbpp.zip][test-tsbpp]{:target="_blank"}   | [bkv-tsbpp.txt][bkv-tsbpp]{:target="_blank"}   | 5000 iterations         | 500            | 700 sec.      |
+| HHBQP    | hhbqp.zip       | [parameters-hhbqp.txt][par-hhbqp]{:target="_blank"}   | [train-hhbqp.zip][train-hhbqp]{:target="_blank"}   | [test-hhbqp.zip][test-hhbqp]{:target="_blank"}   | [bkv-hhbqp.txt][bkv-hhbqp]{:target="_blank"}   | 20/30 sec. (train/test) | 2000           | 7000 sec.     |
+
+<sup>1</sup> We modified the source code of all target algorithms to make them printing the solution costs (and the used effort, when applicable) during the execution.<br>
+<sup>2</sup> You can acces the original source code of all scenarios: [ACOTSP](http://www.aco-metaheuristic.org/aco-code/public-software.html){:target="_blank"}, [HEACOL](http://rhydlewis.eu/resources/gCol.zip){:target="_blank"}, [TSBPP](http://or.dei.unibo.it/research_pages/ORcodes/TSpack.html){:target="_blank"}, [HHBQP](https://github.com/souzamarcelo/hhbqp){:target="_blank"}.
+
+
+***
+
+## References
+
+[1] Dorigo, M., Stützle, T., 2004. Ant Colony Optimization. MIT Press, Cambridge, MA.
+
+[2] Galinier, P., Hao, J.K., 1999. Hybrid evolutionary algorithms for graph coloring. Journal of Combinatorial Optimization 3, 379–397.
+
+[3] Lodi, A., Martello, S., Vigo, D., 1999. Heuristic and metaheuristic approaches for a class of two-dimensional bin packing problems. INFORMS Journal on Computing 11, 345–357.
+
+[4] Lodi, A., Martello, S., Vigo, D., 2004a. TSpack: a unified tabu search code for multi-dimensional bin packing problems. Annals of Operations Research 131, 203–213.
+
+[5] De Souza, M., Ritt, M., 2018. Automatic grammar-based design of heuristic algorithms for unconstrained binary quadratic programming, in: Evolutionary Computation in Combinatorial Optimization, Springer International Publishing. pp. 67–84.
+
+
+***
 
 [marcelo]: https://souzamarcelo.github.io
 [marcus]: https://www.inf.ufrgs.br/~mrpritt
 [manuel]: http://lopez-ibanez.eu
+[par-acotsp]:files/parameters-acotsp.txt
+[par-heacol]:files/parameters-heacol.txt
+[par-tsbpp]:files/parameters-tsbpp.txt
+[par-hhbqp]:files/parameters-hhbqp.txt
+[bkv-acotsp]:files/bkv-acotsp.txt
+[bkv-heacol]:files/bkv-heacol.txt
+[bkv-tsbpp]:files/bkv-tsbpp.txt
+[bkv-hhbqp]:files/bkv-hhbqp.txt
+[train-acotsp]:files/train-acotsp.zip
+[train-heacol]:files/train-heacol.zip
+[train-tsbpp]:files/train-tsbpp.zip
+[train-hhbqp]:files/train-hhbqp.zip
+[test-acotsp]:files/test-acotsp.zip
+[test-heacol]:files/test-heacol.zip
+[test-tsbpp]:files/test-tsbpp.zip
+[test-hhbqp]:files/test-hhbqp.zip
