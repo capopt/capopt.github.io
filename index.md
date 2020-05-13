@@ -5,7 +5,7 @@ plugins:
   - jekyll-target-blank
 ---
 
-# capopt: Capping Mechanisms for the Automatic Configuration of Optimization Algorithms
+# capopt: Capping Methods for the Automatic Configuration of Optimization Algorithms
 
 Welcome to the capopt project website!<br>
 [people](#people)|
