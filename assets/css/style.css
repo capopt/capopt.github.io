@@ -53,10 +53,16 @@ blockquote {
   border-left: 5px solid #bbbbbb;
   padding-left: 10px;
   padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #eeeeee;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   max-width: 725px;
+}
+
+blockquote p {
+  margin: 0;
 }
 
 pre {
