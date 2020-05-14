@@ -25,7 +25,7 @@ The following paper describes *capopt* in detail and present an extensive experi
 > **Capping Strategies for the Automatic Configuration of Optimization Algorithms**<br>
 > Marcelo de Souza, Marcus Ritt, and Manuel López-Ibáñez<br>
 > Submitted to Computers & Operations Research, 2020.<br>
-> [pre print will be available soon | [supplementary page](suppcor)]
+> [preprint will be available soon | [supplementary page](suppcor)]
 
 #### Bibtex
 ```

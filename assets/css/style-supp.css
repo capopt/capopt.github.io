@@ -7,8 +7,8 @@ body {
 }
 
 th {
-  background-color: #66CD66;
-  color: black;
+  background-color: #196F3D;
+  color: white;
   font-weight: 100;
   padding: 6px;
   font-size: 14px;
@@ -16,7 +16,7 @@ th {
 }
 
 td {
-  background-color: #DFFFBF;
+  background-color: rgb(226, 251, 237);
   padding: 6px;
   font-size: 14px;
   color: black;
