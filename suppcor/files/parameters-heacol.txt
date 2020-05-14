@@ -1,5 +1,5 @@
 ### Parameter file for the HYBRID-EA COLORING software
-# name		    switch  type    values
+# name              switch  type    values
 iterationsTs        "-I "   i       (1, 1000)
 populationSize      "-p "   i       (2, 1000)
 construction        "-a "   c       (1, 2)

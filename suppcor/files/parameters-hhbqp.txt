@@ -1,5 +1,5 @@
 ### Parameter file for the HHBQP software
-# name		switch		     type	values			[conditions (using R syntax)]
+# name          switch              type    values              [conditions (using R syntax)]
 pT              "--pT "             c       (1, 2, 3, 4, 5)
 pTv             "--pTv "            i       (1, 50)             | pT == 1
 pTp             "--pTp "            i       (10, 80)            | pT == 2

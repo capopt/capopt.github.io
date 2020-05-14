@@ -41,8 +41,15 @@ Below you find all files to replicate our experiments:
 | HHBQP    | hhbqp.zip       | [parameters-hhbqp.txt][par-hhbqp]{:target="_blank"}   | [train-hhbqp.zip][train-hhbqp]{:target="_blank"}   | [test-hhbqp.zip][test-hhbqp]{:target="_blank"}   | [bkv-hhbqp.txt][bkv-hhbqp]{:target="_blank"}   | 20/30 sec. (train/test) | 2000           | 7000 sec.     |
 
 <sup>1</sup> We modified the source code of all target algorithms to make them printing the solution costs (and the used effort, when applicable) during the execution.<br>
-<sup>2</sup> You can acces the original source code of all scenarios: [ACOTSP](http://www.aco-metaheuristic.org/aco-code/public-software.html){:target="_blank"}, [HEACOL](http://rhydlewis.eu/resources/gCol.zip){:target="_blank"}, [TSBPP](http://or.dei.unibo.it/research_pages/ORcodes/TSpack.html){:target="_blank"}, [HHBQP](https://github.com/souzamarcelo/hhbqp){:target="_blank"}.
+<sup>2</sup> You can acces the original source code of all scenarios: [ACOTSP][acotsp]{:target="_blank"}, [HEACOL][heacol]{:target="_blank"}, [TSBPP][tsbpp]{:target="_blank"}, [HHBQP][hhbqp]{:target="_blank"}.
 
+***
+
+## Generated data
+
+Below you find the raw data of our experiments:
++ Data 1 [download here]
++ Data 2 [download here]
 
 ***
 
@@ -59,24 +66,26 @@ Below you find all files to replicate our experiments:
 [5] De Souza, M., Ritt, M., 2018. Automatic grammar-based design of heuristic algorithms for unconstrained binary quadratic programming, in: Evolutionary Computation in Combinatorial Optimization, Springer International Publishing. pp. 67–84.
 
 
-***
-
 [marcelo]: https://souzamarcelo.github.io
 [marcus]: https://www.inf.ufrgs.br/~mrpritt
 [manuel]: http://lopez-ibanez.eu
-[par-acotsp]:files/parameters-acotsp.txt
-[par-heacol]:files/parameters-heacol.txt
-[par-tsbpp]:files/parameters-tsbpp.txt
-[par-hhbqp]:files/parameters-hhbqp.txt
-[bkv-acotsp]:files/bkv-acotsp.txt
-[bkv-heacol]:files/bkv-heacol.txt
-[bkv-tsbpp]:files/bkv-tsbpp.txt
-[bkv-hhbqp]:files/bkv-hhbqp.txt
-[train-acotsp]:files/train-acotsp.zip
-[train-heacol]:files/train-heacol.zip
-[train-tsbpp]:files/train-tsbpp.zip
-[train-hhbqp]:files/train-hhbqp.zip
-[test-acotsp]:files/test-acotsp.zip
-[test-heacol]:files/test-heacol.zip
-[test-tsbpp]:files/test-tsbpp.zip
-[test-hhbqp]:files/test-hhbqp.zip
+[acotsp]: http://www.aco-metaheuristic.org/aco-code/public-software.html
+[heacol]: http://rhydlewis.eu/resources/gCol.zip
+[tsbpp]: http://or.dei.unibo.it/research_pages/ORcodes/TSpack.html
+[hhbqp]: https://github.com/souzamarcelo/hhbqp
+[par-acotsp]: files/parameters-acotsp.txt
+[par-heacol]: files/parameters-heacol.txt
+[par-tsbpp]: files/parameters-tsbpp.txt
+[par-hhbqp]: files/parameters-hhbqp.txt
+[bkv-acotsp]: files/bkv-acotsp.txt
+[bkv-heacol]: files/bkv-heacol.txt
+[bkv-tsbpp]: files/bkv-tsbpp.txt
+[bkv-hhbqp]: files/bkv-hhbqp.txt
+[train-acotsp]: files/train-acotsp.zip
+[train-heacol]: files/train-heacol.zip
+[train-tsbpp]: files/train-tsbpp.zip
+[train-hhbqp]: files/train-hhbqp.zip
+[test-acotsp]: files/test-acotsp.zip
+[test-heacol]: files/test-heacol.zip
+[test-tsbpp]: files/test-tsbpp.zip
+[test-hhbqp]: files/test-hhbqp.zip
