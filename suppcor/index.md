@@ -57,9 +57,11 @@ Below you find all files to replicate our experiments:
 
 Below you find the raw data of our experiments:
 + Evaluation of all capping methods [[train-data-evaluation.csv][train-data-evaluation]{:target="_blank"} \| [test-data-evaluation.csv][test-data-evaluation]{:target="_blank"}]
++ Analysis of selected methods (9th replication on ACOTSP) [[noncapped-executions.csv][noncapped]{:target="_blank"} \| [capped-executions.csv][capped]{:target="_blank"}]
 + Time as budget experiment [[train-data-timeasbudget.csv][train-data-timeasbudget]{:target="_blank"} \| [test-data-timeasbudget.csv][test-data-timeasbudget]{:target="_blank"}]
 
 ***
+
 
 ## References
 
@@ -116,3 +118,5 @@ Below you find the raw data of our experiments:
 [test-data-evaluation]: files/test-data-evaluation.csv
 [train-data-timeasbudget]: files/train-data-timeasbudget.csv
 [test-data-timeasbudget]: files/test-data-timeasbudget.csv
+[noncapped]: files/noncapped-executions.csv
+[capped]: files/capped-executions.csv
