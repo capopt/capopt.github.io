@@ -1,0 +1,11 @@
+executable: ./heacol
+seed-command: -r
+effort-limit-command: -s
+effort-limit: 1000000000
+effort-type: other
+capping-penalty: best-so-far
+alpha: 10
+capping: True
+capping-mechanism: area
+capping-strategy: adaptive
+capping-goal: 0.2

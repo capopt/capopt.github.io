@@ -7,8 +7,8 @@ body {
 }
 
 th {
-  background-color: #196F3D;
-  color: white;
+  background-color: #66CD66;
+  color: black;
   font-weight: 100;
   padding: 6px;
   font-size: 14px;
@@ -16,9 +16,10 @@ th {
 }
 
 td {
-  background-color: #E8F5E9;
+  background-color: #DFFFBF;
   padding: 6px;
   font-size: 14px;
+  color: black;
 }
 
 strong {
@@ -46,6 +47,7 @@ hr {
 a {
   color: #2780e3;
   text-decoration: none;
+  font-weight: 400;
 }
 
 a:hover {
