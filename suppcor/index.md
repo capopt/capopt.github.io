@@ -1,8 +1,6 @@
 ---
 layout: template
 title: Supplementary page [capopt]
-plugins:
-  - jekyll-target-blank
 ---
 
 Supplementary page to the paper:
@@ -32,7 +30,7 @@ All capping methods are implemented in capopt. It provides a Python target runne
 We tested the capping methods in the following scenarios:
 
 + ACOTSP: ant colony optimization algorithms for the symmetric traveling salesperson problem [1].
-+ HEACOL: hybrid evolutionary algorithm for the graph coloring problem [2].
++ HEACOL: hybrid evolutionary algorithm for graph coloring [2].
 + TSBPP: tabu search for the bin packing problem [3, 4].
 + HHBQP: hybrid heuristic for unconstrained binary quadratic programming [5].
 

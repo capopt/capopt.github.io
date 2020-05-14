@@ -1,8 +1,6 @@
 ---
 layout: template
 title: capopt
-plugins:
-  - jekyll-target-blank
 ---
 
 # capopt: Capping Methods for the Automatic Configuration of Optimization Algorithms
