@@ -16,9 +16,9 @@ Welcome to the capopt project website!<br>
 
 ***
 
-The main objective of *capopt* is to speed up the automatic configuration of optimization algorithms. It implements several capping mechanisms for optimization scenarios. These methods use the performance of previously seen executions to determine a performance envelope, which is used to evaluate how good a new configuration is during its execution. If a poorly performing configuration is identified, *capopt* stops the execution and returns a penalized result value.
+The main objective of *capopt* is to speed up the automatic configuration of optimization algorithms. It implements several capping methods for optimization scenarios. These methods use the performance of previously seen executions to determine a performance envelope, which is used to evaluate how good a new configuration is during its execution. If a poorly performing configuration is identified, *capopt* stops the execution and returns a penalized result value.
 
-The following paper describes *capopt* in detail and present an extensive experimental evaluation. You can also check its [supplementary page](suppcor) for further experimental details.
+The following article describes *capopt* in detail and present an extensive experimental evaluation. You can also check its [supplementary page](suppcor) for further experimental details.
 
 > **Capping Strategies for the Automatic Configuration of Optimization Algorithms**<br>
 > Marcelo de Souza, Marcus Ritt, and Manuel López-Ibáñez<br>
@@ -55,7 +55,7 @@ Please, make sure to reference us if you use *capopt* in your research.
 
 ***
 
-## Tutorial
+## Getting Started
 
 ***
 

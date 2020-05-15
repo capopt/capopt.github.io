@@ -3,6 +3,6 @@ execDir = "."
 trainInstancesDir = "./instances"
 maxExperiments = 500
 digits = 2
-targetRunner = "./target-runner/target-runner.py"
+targetRunner = "./capopt/capopt.py"
 seed = 1114706456
 deterministic = TRUE

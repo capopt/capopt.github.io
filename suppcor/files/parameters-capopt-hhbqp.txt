@@ -4,9 +4,9 @@ seed-command: --seed
 effort-limit-command: --timelimit
 effort-limit: 20
 effort-type: time
-capping-penalty: best-so-far
-alpha: 10
 capping: True
-capping-mechanism: area
-capping-strategy: adaptive
-capping-goal: 0.2
+penalty: best-so-far
+envelope: area
+strategy: adaptive
+ag: 0.2
+epsilon: 0.05

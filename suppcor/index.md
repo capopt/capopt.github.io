@@ -38,14 +38,14 @@ Below you find all files to replicate our experiments:
 
 | Scenario | Source code&nbsp;<sup>1,&nbsp;2</sup>      | Parameters                                            | Train instances                                    | Test instances                                   | Best known values                              | Param. target runner&nbsp;<sup>3</sup>                                 | Scenario file&nbsp;<sup>4</sup>                                | Cut-off effort          | Budget (execs) | Budget (time) |
 |----------|--------------------------------------------|-------------------------------------------------------|----------------------------------------------------|--------------------------------------------------|------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------|-------------------------|----------------|---------------|
-| ACOTSP   | [acotsp.zip][src-acotsp]{:target="_blank"} | [parameters-acotsp.txt][par-acotsp]{:target="_blank"} | [train-acotsp.zip][train-acotsp]{:target="_blank"} | [test-acotsp.zip][test-acotsp]{:target="_blank"} | [bkv-acotsp.txt][bkv-acotsp]{:target="_blank"} | [parameters-target-runner-acotsp.txt][par-tr-acotsp]{:target="_blank"} | [scenario-acotsp.txt][scenario-acotsp]{:target="_blank"} | 60 sec.                 | 2000           | 21000 sec.    |
-| HEACOL   | [heacol.zip][src-heacol]{:target="_blank"} | [parameters-heacol.txt][par-heacol]{:target="_blank"} | [train-heacol.zip][train-heacol]{:target="_blank"} | [test-heacol.zip][test-heacol]{:target="_blank"} | [bkv-heacol.txt][bkv-heacol]{:target="_blank"} | [parameters-target-runner-heacol.txt][par-tr-heacol]{:target="_blank"} | [scenario-heacol.txt][scenario-heacol]{:target="_blank"} | 10<sup>9</sup> checks   | 2000           | 3200 sec.     |
-| TSBPP    | [tsbpp.zip][src-tsbpp]{:target="_blank"}   | [parameters-tsbpp.txt][par-tsbpp]{:target="_blank"}   | [train-tsbpp.zip][train-tsbpp]{:target="_blank"}   | [test-tsbpp.zip][test-tsbpp]{:target="_blank"}   | [bkv-tsbpp.txt][bkv-tsbpp]{:target="_blank"}   | [parameters-target-runner-tsbpp.txt][par-tr-tsbpp]{:target="_blank"}   | [scenario-tsbpp.txt][scenario-tsbpp]{:target="_blank"}   | 5000 iterations         | 500            | 700 sec.      |
-| HHBQP    | [hhbqp.zip][src-hhbqp]{:target="_blank"}   | [parameters-hhbqp.txt][par-hhbqp]{:target="_blank"}   | [train-hhbqp.zip][train-hhbqp]{:target="_blank"}   | [test-hhbqp.zip][test-hhbqp]{:target="_blank"}   | [bkv-hhbqp.txt][bkv-hhbqp]{:target="_blank"}   | [parameters-target-runner-hhbqp.txt][par-tr-hhbqp]{:target="_blank"}   | [scenario-hhbqp.txt][scenario-hhbqp]{:target="_blank"}   | 20/30 sec. (train/test) | 2000           | 7000 sec.     |
+| ACOTSP   | [acotsp.zip][src-acotsp]{:target="_blank"} | [parameters-acotsp.txt][par-acotsp]{:target="_blank"} | [train-acotsp.zip][train-acotsp]{:target="_blank"} | [test-acotsp.zip][test-acotsp]{:target="_blank"} | [bkv-acotsp.txt][bkv-acotsp]{:target="_blank"} | [parameters-capopt-acotsp.txt][parc-acotsp]{:target="_blank"} | [scenario-acotsp.txt][scenario-acotsp]{:target="_blank"} | 60 sec.                 | 2000           | 21000 sec.    |
+| HEACOL   | [heacol.zip][src-heacol]{:target="_blank"} | [parameters-heacol.txt][par-heacol]{:target="_blank"} | [train-heacol.zip][train-heacol]{:target="_blank"} | [test-heacol.zip][test-heacol]{:target="_blank"} | [bkv-heacol.txt][bkv-heacol]{:target="_blank"} | [parameters-capopt-heacol.txt][parc-heacol]{:target="_blank"} | [scenario-heacol.txt][scenario-heacol]{:target="_blank"} | 10<sup>9</sup> checks   | 2000           | 3200 sec.     |
+| TSBPP    | [tsbpp.zip][src-tsbpp]{:target="_blank"}   | [parameters-tsbpp.txt][par-tsbpp]{:target="_blank"}   | [train-tsbpp.zip][train-tsbpp]{:target="_blank"}   | [test-tsbpp.zip][test-tsbpp]{:target="_blank"}   | [bkv-tsbpp.txt][bkv-tsbpp]{:target="_blank"}   | [parameters-capopt-tsbpp.txt][parc-tsbpp]{:target="_blank"}   | [scenario-tsbpp.txt][scenario-tsbpp]{:target="_blank"}   | 5000 iterations         | 500            | 700 sec.      |
+| HHBQP    | [hhbqp.zip][src-hhbqp]{:target="_blank"}   | [parameters-hhbqp.txt][par-hhbqp]{:target="_blank"}   | [train-hhbqp.zip][train-hhbqp]{:target="_blank"}   | [test-hhbqp.zip][test-hhbqp]{:target="_blank"}   | [bkv-hhbqp.txt][bkv-hhbqp]{:target="_blank"}   | [parameters-capopt-hhbqp.txt][parc-hhbqp]{:target="_blank"}   | [scenario-hhbqp.txt][scenario-hhbqp]{:target="_blank"}   | 20/30 sec. (train/test) | 2000           | 7000 sec.     |
 
 <sup>1</sup> We modified the source code of all target algorithms to make them printing the solution costs (and the used effort, when applicable) during the execution.<br>
 <sup>2</sup> You can acces the original source code of all scenarios: [ACOTSP][acotsp]{:target="_blank"}, [HEACOL][heacol]{:target="_blank"}, [TSBPP][tsbpp]{:target="_blank"}, [HHBQP][hhbqp]{:target="_blank"}.<br>
-<sup>3</sup> The *parameters-target-runner* file is an example that uses the *AD.2* capping method (area-based adaptive method with a<sub>g</sub>= 0.2).<br>
+<sup>3</sup> The *parameters-capopt* file is an example that uses the *AD.2* capping method (area-based adaptive method with a<sub>g</sub>= 0.2).<br>
 <sup>4</sup> The *scenario.txt* file is an example that uses a seed equals to 1114706456.
 
 ***
@@ -104,10 +104,10 @@ Below you find the raw data of our experiments:
 [test-heacol]: files/test-heacol.zip
 [test-tsbpp]: files/test-tsbpp.zip
 [test-hhbqp]: files/test-hhbqp.zip
-[par-tr-acotsp]: files/parameters-target-runner-acotsp.txt
-[par-tr-heacol]: files/parameters-target-runner-heacol.txt
-[par-tr-tsbpp]: files/parameters-target-runner-tsbpp.txt
-[par-tr-hhbqp]: files/parameters-target-runner-hhbqp.txt
+[parc-acotsp]: files/parameters-capopt-acotsp.txt
+[parc-heacol]: files/parameters-capopt-heacol.txt
+[parc-tsbpp]: files/parameters-capopt-tsbpp.txt
+[parc-hhbqp]: files/parameters-capopt-hhbqp.txt
 [scenario-acotsp]: files/scenario-acotsp.txt
 [scenario-heacol]: files/scenario-heacol.txt
 [scenario-tsbpp]: files/scenario-tsbpp.txt
