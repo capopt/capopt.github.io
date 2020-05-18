@@ -1,4 +1,4 @@
-#bibtex {
+#bibtex, #parameters-capopttxt, #scenariotxt {
   margin-bottom: 0;
 }
 
@@ -40,13 +40,17 @@ a:hover {
   text-decoration: underline;
 }
 
-.highlighter-rouge {
+div.highlighter-rouge {
   border: 0.5px solid #bbbbbb;
   background-color: #eeeeee;
   display: inline-block;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 2px;
+}
+
+code.highlighter-rouge {
+  background-color: #eeeeee;
 }
 
 .highlight {
@@ -68,6 +72,10 @@ blockquote {
 
 blockquote p {
   margin: 0;
+}
+
+ol p, ul p, li p {
+  margin: 0px;
 }
 
 pre {
