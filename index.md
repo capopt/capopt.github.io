@@ -12,7 +12,7 @@ Welcome to the *capopt* project website!<br>
 [example](#example) |
 [license](#license) |
 [support](#support) |
-[documentation](docs)
+[documentation](docs){:target="_blank"}
 
 ***
 
