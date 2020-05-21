@@ -47,6 +47,9 @@ div.highlighter-rouge {
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 2px;
+  width: auto;
+  display: block;
+  max-width: 750px;
 }
 
 code.highlighter-rouge {
@@ -67,7 +70,9 @@ blockquote {
   background-color: #eeeeee;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  max-width: 725px;
+  width: auto;
+  display: block;
+  max-width: 747px;
 }
 
 blockquote p {
