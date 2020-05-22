@@ -24,6 +24,7 @@ Automatic configuration techniques are widely and successfully used to find good
 
 All capping methods are implemented in capopt. It provides a Python target runner script that integrates with irace. All details of how to use it is provided in the [project website][capopt]{:target="_blank"}. The source code is available in the [GitHub repository of capopt][capopt-github]{:target="_blank"}. You can download the exact version used in our experiments [here][capopt-download]{:target="_blank"}.
 
+***
 
 ## Configuration Scenarios
 
